@@ -6,10 +6,6 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
