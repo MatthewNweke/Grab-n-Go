@@ -7,11 +7,12 @@ const CarouselSlider = React.memo(() => {
   return (
     <div className="carousel-container mt-20">
       <Carousel
-        autoPlay={true} // Enable auto-play
-        interval={3000} // Set interval to 3000ms (3 seconds)
-        showIndicators={false} // Hide indicators
-        showThumbs={false} // Hide thumbnails
-        infiniteLoop={true} // Enable infinite looping
+        autoPlay={true} 
+        interval={2000} 
+        showIndicators={false} 
+        showThumbs={false} 
+        showStatus={false} 
+        infiniteLoop={true} 
         className="carousel"
       >
         {/* Ensure your image paths are correct relative to the public directory */}
@@ -25,7 +26,13 @@ const CarouselSlider = React.memo(() => {
           <img src="/ewa_aganyi.jpeg" alt="image3" className="carousel-image" loading="lazy" />
         </div>
         <div className="h-[100%]">
+          <img src="/stir_fry.jpg" alt="image3" className="carousel-image" loading="lazy" />
+        </div>
+        <div className="h-[100%]">
           <img src="/ofada.jpg" alt="image4" className="carousel-image" loading="lazy" />
+        </div>
+        <div className="h-[100%]">
+          <img src="/spag.jpg" alt="image5" className="carousel-image" loading="lazy" />
         </div>
       </Carousel>
     </div>

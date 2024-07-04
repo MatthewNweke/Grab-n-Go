@@ -8,7 +8,7 @@
   
   .carousel img {
     width: 100%;
-    height: 500px; /* Set a fixed height */
+    height: 400px; /* Set a fixed height */
     object-fit: cover; /* Ensure the image covers the area without distortion */
   }
   
@@ -21,7 +21,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 1; /* Ensure arrows are visible */
     transition: background-color 0.3s; /* Smooth transition for background color */
   }
   
@@ -36,5 +35,6 @@
   .carousel .control-arrow::before {
     font-size: 2em; /* Increase arrow size */
     color: white; /* Arrow color */
+    /* background-color: red; */
   }
   
