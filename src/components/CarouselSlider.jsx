@@ -16,6 +16,7 @@ const CarouselSlider = React.memo(() => {
         className="carousel"
       >
         {/* Ensure your image paths are correct relative to the public directory */}
+        
         <div className="h-[100%]">
           <img src="/chinese_spag.jpg" alt="image1" className="carousel-image" loading="lazy" />
         </div>
@@ -26,13 +27,16 @@ const CarouselSlider = React.memo(() => {
           <img src="/ewa_aganyi.jpeg" alt="image3" className="carousel-image" loading="lazy" />
         </div>
         <div className="h-[100%]">
-          <img src="/stir_fry.jpg" alt="image3" className="carousel-image" loading="lazy" />
+          <img src="/stir_fry.jpg" alt="image4" className="carousel-image" loading="lazy" />
         </div>
         <div className="h-[100%]">
-          <img src="/ofada.jpg" alt="image4" className="carousel-image" loading="lazy" />
+          <img src="/spaghetti.jpg" alt="image5" className="carousel-image" loading="lazy" />
         </div>
         <div className="h-[100%]">
-          <img src="/spag.jpg" alt="image5" className="carousel-image" loading="lazy" />
+          <img src="/ofada.jpg" alt="image6" className="carousel-image" loading="lazy" />
+        </div>
+        <div className="h-[100%]">
+          <img src="/spag.jpg" alt="image7" className="carousel-image" loading="lazy" />
         </div>
       </Carousel>
     </div>
