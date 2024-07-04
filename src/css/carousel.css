@@ -1,0 +1,40 @@
+.carousel-container {
+    width: 100%;
+    height: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: auto; /* Center the carousel */
+    position: relative;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 500px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  
+  .carousel .control-arrow {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    width: 50px; /* Width of the sidebar */
+    height: 100%; /* Full height of the carousel */
+    top: 0; /* Align to the top */
+    bottom: 0; /* Align to the bottom */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1; /* Ensure arrows are visible */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .carousel .control-prev.control-arrow {
+    left: 0; /* Position the previous arrow on the left */
+  }
+  
+  .carousel .control-next.control-arrow {
+    right: 0; /* Position the next arrow on the right */
+  }
+  
+  .carousel .control-arrow::before {
+    font-size: 2em; /* Increase arrow size */
+    color: white; /* Arrow color */
+  }
+  
