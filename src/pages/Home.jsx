@@ -11,7 +11,7 @@ function Home() {
         <h2 className="text-[2.4rem] text-center font-bold text-[#ff0000] my-5 max-md:text-[2rem]">About Us</h2>
 
         <div className="mt-10 flex justify-around max-md:flex-col max-md:items-center">
-          <img src="/aboutUs_img.jpg"  className="max-w-[100%] w-[40%] max-md:w-[90%]" />
+          <img src="/aboutUs_img.jpg"  className="max-w-[100%] w-[40%] max-md:w-[90%]"  loading="lazy"/>
           <div className="w-[40%] max-md:w-[90%] max-md:mt-5">
             <p className="text-[1.2rem] max-md:text-[1rem]">
               Behind every delicious, Soulfully Spiced Chicken meal and at the
