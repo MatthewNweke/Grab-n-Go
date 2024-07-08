@@ -17,18 +17,18 @@ const CarouselSlider = React.memo(() => {
       >
         
         <div className="h-[100%]">
-          <img src="/chinese_spag.jpg" alt="image1" className="carousel-image kenburns-top-left" loading="lazy" />
+          <img src="/chinese_spag.jpg" alt="image1" className="carousel-image " loading="lazy" />
         </div>
       
         <div className="h-[100%]">
-          <img src="/stir_fry.jpg" alt="image4" className="carousel-image kenburns-top-left" loading="lazy" />
+          <img src="/stir_fry.jpg" alt="image4" className="carousel-image " loading="lazy" />
         </div>
         <div className="h-[100%]">
-          <img src="/juice.jpg" alt="image5" className="carousel-image kenburns-top-left" loading="lazy" />
+          <img src="/juice.jpg" alt="image5" className="carousel-image " loading="lazy" />
         </div>
         
         <div className="h-[100%]">
-          <img src="/spag.jpg" alt="image7" className="carousel-image kenburns-top-left" loading="lazy" />
+          <img src="/spag.jpg" alt="image7" className="carousel-image " loading="lazy" />
         </div>
       </Carousel>
     </div>

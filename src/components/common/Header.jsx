@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import 'animate.css';
-import '../../css/index.css'
+import "animate.css";
+import "../../css/index.css";
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -48,7 +48,6 @@ const Header = () => {
             src="/gng_logo.jpg"
             className="cursor-pointer lg:h-[5rem] lg:w-[5rem] h-[4.5rem] w-[4.5rem]"
             loading="lazy"
-            
             alt="Logo"
           />
         </Link>
@@ -92,28 +91,28 @@ const Header = () => {
             </p>
           </Link>
           <div className="cursor-pointer">
-            <Link to="/plan">
+            <Link to="#">
               <p className="p-3 rounded-lg text-white text-sm max-lg:text-[1rem] font-semibold">
                 Menu
               </p>
             </Link>
           </div>
           <div className="cursor-pointer">
-            <Link to="/about">
+            <Link to="#">
               <p className="p-3  rounded-lg text-white text-sm max-lg:text-[1rem] font-semibold">
                 About Us
               </p>
             </Link>
           </div>
           <div className="cursor-pointer">
-            <Link to="/contact">
+            <Link to="#">
               <p className="p-3 rounded-lg text-white text-sm max-lg:text-[1rem] font-semibold">
                 Services
               </p>
             </Link>
           </div>
           <div className="cursor-pointer">
-            <Link to="/contact">
+            <Link to="#">
               <p className="p-3 rounded-lg text-white text-sm max-lg:text-[1rem] font-semibold">
                 Contact
               </p>
@@ -121,10 +120,12 @@ const Header = () => {
           </div>
 
           <div className="cursor-pointer">
-          <Link to="#">
-            <p className="font-bold text-white bg-[#ff0000] inline-block p-3 rounded-lg ">Order now</p>
-          </Link>
-        </div>
+            <Link to="#">
+              <p className="font-bold text-white bg-[#ff0000] inline-block p-3 rounded-lg ">
+                Order now
+              </p>
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -132,34 +133,37 @@ const Header = () => {
       <div className={`lg:flex items-center gap-16 hidden`}>
         <div>
           <Link to="/">
-            <p className="font-semibold  text-white  cursor-pointer">
-              Home
-            </p>
+            <p className="font-semibold  text-white  cursor-pointer">Home</p>
           </Link>
         </div>
 
         <div className="cursor-pointer">
-          <Link to="/plan">
-            <p className="font-semibold text-white ">Plan</p>
+          <Link to="#">
+            <p className="font-semibold text-white ">Menu</p>
           </Link>
         </div>
         <div className="cursor-pointer">
-          <Link to="/about">
-            <p className="font-semibold text-white ">About</p>
+          <Link to="#">
+            <p className="font-semibold text-white ">About Us</p>
           </Link>
         </div>
         <div className="cursor-pointer">
           <Link to="/contact">
+            <p className="font-semibold text-white ">Services</p>
+          </Link>
+        </div>
+        <div className="cursor-pointer">
+          <Link to="#">
             <p className="font-semibold text-white ">Contact</p>
           </Link>
         </div>
         <div className="cursor-pointer">
           <Link to="#">
-            <p className="font-bold text-white bg-[#ffcc29] p-3 rounded-lg hover:opacity-[0.95]">Order now</p>
+            <p className="font-semibold hover:text-white bg-[#ffcc29] py-3 px-5 rounded-2xl hover:opacity-[0.95] hover:bg-[red] border-[2px] border-[white] transition-all duration-300 ease-in-out">
+              Order now
+            </p>
           </Link>
         </div>
-
-        
       </div>
     </div>
   );
